@@ -1,4 +1,6 @@
 @import url('./global.css');
-@import url('./header.css');
 @import url('./utilities/colors.css');
 @import url('./utilities/tipography.css');
+@import url('./header.css');
+@import url('./introduction.css');
+@import url('./nossa_historia.css')

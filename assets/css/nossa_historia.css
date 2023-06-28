@@ -1,0 +1,28 @@
+.nossa-historia{
+  border-bottom: 80px solid var(--cor-1);  
+}
+
+.nossa-historia-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 4.38rem ;   
+  max-height: 600px;   
+}
+
+.nossa-historia-photo{
+  max-width: 37rem;
+  object-fit: fill;
+  
+}
+
+.nossa-historia-photo img{  
+  border-radius: 0 0 10px 10px ;
+}
+
+.nossa-historia-text{
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  letter-spacing: 0.075rem;
+}

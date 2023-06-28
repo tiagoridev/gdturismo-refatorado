@@ -2,3 +2,46 @@
   --font-main:'Poppins', sans-serif;
 }
 
+.title-main{
+  font-size: 3rem;
+  font-weight: 600;  
+}
+
+/* size */
+
+.font-xsm{
+  font-size: 1rem;
+}
+
+.font-sm{
+  font-size: 1.125rem;
+}
+
+.font-md{
+  font-size: 1.5rem;
+}
+
+.font-lg{
+  font-size: 2rem;
+}
+
+.font-xlg{
+  font-size: 2.25rem;
+}
+
+.font-xxl{
+  font-size: 3rem;
+}
+
+/* weight */
+.weight-reg{
+  font-weight: 400;
+}
+
+.weight-semibold{
+  font-weight: 600;
+}
+
+.weight-bold{
+  font-weight: 700;
+}

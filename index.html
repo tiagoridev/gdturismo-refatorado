@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>G&D Turismo</title>
 </head>
@@ -19,49 +19,77 @@
       </div>
       <div class="header-nav">
         <nav>
-          <ul class="header-menu-list">
-            <li class="header-menu-item"><a href="#">Nossa história</a></li>
-            <li class="header-menu-item"><a href="#">Mural de Fotos</a></li>
-            <li class="header-menu-item"><a href="#">Benefícios</a></li>
-            <li class="header-menu-item"><a href="#">Depoimentos</a></li>
+          <ul class="header-menu-list font-xsm weight-semibold">
+            <li class="header-menu-item"><a class="cor-0" href="#">Nossa história</a></li>
+            <li class="header-menu-item"><a class="cor-0" href="#">Mural de Fotos</a></li>
+            <li class="header-menu-item"><a class="cor-0" href="#">Benefícios</a></li>
+            <li class="header-menu-item"><a class="cor-0" href="#">Depoimentos</a></li>
           </ul>
         </nav>
-        <div>
-          <a href="#"><img src="" alt="Instagram"></a>
-          <a href="#"><img src="" alt="Facebook"></a>
+        <div class="header-icons">
+          <a href="#" ><img class="header-icon-item" src="./assets/imgs/icons/insta.svg" alt="Instagram"></a>
+          <a href="#"><img class="header-icon-item" src="./assets/imgs/icons/face.svg" alt="Facebook"></a>
         </div>
       </div>
     </div>
   </header>
-  
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <!--INTRODUÇÃO / SLIDE-->
+    <div id="carouselExampleInterval" class="carousel slide introduction" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="1000">
-          <img src="./assets/imgs/slide/ft1.jpeg" class="d-block w-100" alt="...">
+          <img src="./assets/imgs/slide/foto-slide-1.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./assets/imgs/slide/ft5.jpeg" class="d-block w-100" alt="...">
+          <img src="./assets/imgs/slide/foto-slide-2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./assets/imgs/slide/ft3.jpeg" class="d-block w-100" alt="...">
+          <img src="./assets/imgs/slide/foto-slide-3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="./assets/imgs/slide/foto-slide-4.png" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon btn-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon btn-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   
-  
+  <!--NOSSA HISTÓRIA-->
+  <main>
+    <section class="section-detail nossa-historia">
+      <h1 class="title-main container">Nossa História</h1>
+      <div class="bg-main bg-cor-0">
+        <div class="nossa-historia-content container">
+          <div class="nossa-historia-photo">
+            <img  src="./assets/imgs/nossa_historia/rita.jpg" alt="Rita, responsável da G&D Turismo">
+          </div>
+          <div class="nossa-historia-text font-sm cor-1">
+            <p class="font-lg">Muito bom ter você aqui!</p> 
+              
+            <p>Me chamo Rita e desde 2018 tenho buscado proporcionar experiências incríveis e inesquecíveis aos meus viajantes.</p>
+
+            <p>Com uma equipe apaixonada e empreendedora, enfrentamos desafios e conquistamos grandes vitórias.</p> 
+              
+            <p>Nosso diferencial sempre foi o planejamento personalizado, atendimento excepcional e cuidado com cada detalhe. Acreditamos que cada viagem é única e deve superar expectativas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat qui exercitationem esse quas! Voluptas corporis esse quia eos aspernatur iure cum distinctio saepe officia veniam. Voluptate odit vero nostrum quas.
+      Soluta modi consectetur voluptatibus asperiores expedita nesciunt explicabo sint rerum non corrupti debitis commodi incidunt voluptas suscipit nulla eius corporis nemo, reiciendis perspiciatis maiores laboriosam blanditiis eum nihil. Dignissimos, aliquid.
+      </h1>
+    </section>
+  </main>
 
 
 
 
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
