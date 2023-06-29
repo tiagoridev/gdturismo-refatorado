@@ -6,6 +6,16 @@
   list-style: none;   
 }
 
+p, h1, ul{
+  margin: 0px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  margin: 0px;
+}
+
 a{
   text-decoration: none;
 }
@@ -23,24 +33,21 @@ body{
 .title-main{
   font-size: var(--font-xxl);
   color: var(--cor-0);
-  
+  position: relative; 
+  line-height: 2.5rem; 
 }
 
-.section-detail{
-   padding: 60px 0px;
-    /* margin-top: 50px; */
-    /* background-color: pink; */
-    position: relative;
-}
-
-.section-detail::after{
+.title-main::after{
   content: '';
+  display: block;
+  width: 150px;
+  height: 10px;
   position: absolute;
-  width: 15px;
-  height: 65px;
-  border-radius: 20px;
-  background-color: var(--cor-0);
-  top: 60px;
-  right: 20px;
-  transform: rotate(52.52deg);
+  background-color: var(--cor-3);
+  border-radius: 10px;
+}
+
+.section-details{
+  display: flex;
+  justify-content: space-between;
 }

@@ -6,3 +6,9 @@
 .introduction{
   margin-bottom: 8rem;
 }
+
+@media (max-width: 1140px){
+  .introduction{
+    margin-bottom: 4rem;
+  }
+}
