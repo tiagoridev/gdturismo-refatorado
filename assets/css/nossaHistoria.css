@@ -1,5 +1,9 @@
 .section-details{
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+}
+
+.nossa-historia{
+  margin-bottom: 0rem;
 }
 .bg-nossa-historia{ 
   box-shadow: inset 0 -100px var(--cor-1);  
