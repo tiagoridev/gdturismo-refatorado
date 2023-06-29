@@ -25,17 +25,19 @@
   line-height: 0px;
 }
 
+/*responsivo mural de fotos*/
 @media (max-width: 600px){
   .mural-de-fotos{
     padding: 2rem 0;
-  }
-  
+  } 
+  .mural-list{    
+    gap: .8rem;
+  } 
 }
 
 /*Sentence*/
-
 .sentence{
-  padding: 2rem;
+  padding: 1rem;  
 }
 
 .sentence-text{
@@ -43,8 +45,19 @@
   font-style: italic;
   font-weight: 300;
 }
+
+/* responsivo sentence*/
 @media (max-width: 900px){
   .sentence-text{
     font-size: 24px;
+  }  
+}
+
+@media (max-width: 500px){
+  .sentence{
+    padding: .5rem;
+  }
+  .sentence-text{
+    font-size: 1.2rem;
   }  
 }

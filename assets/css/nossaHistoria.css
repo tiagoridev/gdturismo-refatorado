@@ -2,9 +2,10 @@
   margin-bottom: 3rem;
 }
 
-.nossa-historia{
-  margin-bottom: 0rem;
+.nossa-historia-content{
+  margin-bottom: 4rem;
 }
+
 .bg-nossa-historia{ 
   box-shadow: inset 0 -100px var(--cor-1);  
 }
@@ -71,18 +72,17 @@
 
 @media (max-width: 850px){
   .nossa-historia-content{    
-    grid-template-columns: 1fr;  
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem; 
+
   }
   .nossa-historia-text{
-   grid-row: 1;
-   margin: 0 auto;
+    grid-row: 1;
+    margin: 0 auto;
   }
   .nossa-historia-photo{   
     max-width: 300px;
-  }
-  .title-main{
-    font-size: 2rem;
-  }
+  } 
   .icon-detail{
     width: 40px;
   }
