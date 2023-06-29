@@ -8,6 +8,18 @@
 
 p, h1, ul{
   margin: 0px;
+  padding: 0px;
+}
+
+figure{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+figcaption{
+  margin: 0px;
+  padding: 0px;
 }
 
 img{
