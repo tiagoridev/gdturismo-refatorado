@@ -24,8 +24,9 @@ figcaption{
 
 img{
   max-width: 100%;
-  display: block;
+  /* display: block; */
   margin: 0px;
+  padding: 0px;
 }
 
 button{ 
@@ -39,8 +40,7 @@ a{
 }
 
 body{
-  font-family: var(--font-main);
- 
+  font-family: var(--font-main);  
 }
 
 .container{
