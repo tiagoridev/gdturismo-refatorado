@@ -6,7 +6,7 @@
   list-style: none;   
 }
 
-p, h1, ul{
+p, h1, h2, ul{
   margin: 0px;
   padding: 0px;
 }
@@ -62,7 +62,7 @@ body{
   height: 0.625rem;
   position: absolute;
   background-color: var(--cor-3);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .section-details{
@@ -75,7 +75,8 @@ body{
 }
 .btn-box{
   display: flex;
-  justify-content: center;  
+  justify-content: center; 
+  margin-bottom: 4rem; 
 }
 
 .btn-quero-viajar{   
@@ -86,7 +87,7 @@ body{
   background-size: 500% 100%;
   color: white;            
   box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   gap: 16px;
   align-items: center;
