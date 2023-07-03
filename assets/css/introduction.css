@@ -1,6 +1,7 @@
 .btn-icon{
   background-color: var(--cor-0);
   height: 100px;
+  border-radius: 5px;
 }
 
 .introduction{
@@ -16,5 +17,9 @@
 @media (max-width: 500px){
   .introduction{
     margin-bottom: 2rem;
+  }
+  .btn-icon{
+    background-color: var(--cor-0);
+    height: 50px;    
   }
 }
