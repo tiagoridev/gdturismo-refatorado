@@ -152,18 +152,16 @@
     visibility: visible;
   }
 
-
   .header-menu-item{
     /* display: block; */
     padding: 2rem;
     border-bottom: 2px solid var(--cor-6)
   }
+  
   .btn-menu-mobile{
     display: block;
   }
 
-
-  
   .header-content{
     flex-direction: row;
   } 
