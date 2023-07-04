@@ -21,9 +21,46 @@
   gap: 2.5rem;
 }
 
+.menu-controls{
+  display: flex;
+}
+
+#hamburguer{
+  border-top: 2px solid var(--cor-0);
+  width: 40px;
+  display: block;
+  background-color: var(--cor-1);
+}
+
+#hamburguer::after, #hamburguer::before{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: var(--cor-0);
+  margin-top: 10px;
+  transition: .3s;
+  position: relative;
+}
+
+.header-nav-menu.active #hamburguer{
+  border-top-color: transparent ;
+}
+
+.header-nav-menu.active #hamburguer::before{
+  transform: rotate(135deg);
+}
+
+.header-nav-menu.active #hamburguer::after{
+  transform: rotate(-135deg);
+  top: -12px;
+}
+
 .btn-menu-mobile{
   display: none;
 }
+
+
 .header-menu-list{
   display: flex;
   gap: 0px;
@@ -99,7 +136,7 @@
     background-color: var(--cor-1); 
     height: 0px;   
     text-align: center;
-    transition: .3s;  
+    transition: .6s;  
     visibility: hidden; 
     overflow-y: hidden; 
   }
@@ -111,6 +148,10 @@
     /* overflow-y: auto; */
   }
 
+  .header-nav-menu.active .header-icons{
+    visibility: visible;
+  }
+
 
   .header-menu-item{
     /* display: block; */
@@ -120,6 +161,9 @@
   .btn-menu-mobile{
     display: block;
   }
+
+
+  
   .header-content{
     flex-direction: row;
   } 

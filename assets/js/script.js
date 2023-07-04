@@ -8,6 +8,19 @@ function menuMobile(event){
   const nav = document.querySelector('.header-nav-menu');
   const body = document.body;
   nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if(active){
+    event.currentTarget.setAttribute('aria-label', 'Fechar menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir menu');
+  }
+  // if(nav.classList.contains('active')){
+  //   document.querySelector('main').style.visibility = 'hidden';
+  // } else {
+  //   document.querySelector('main').style.visibility = 'visible';
+  // }
+  
   // if(nav.classList.contains('active')){
   //   document.querySelector('.header-menu-list').style.height = scrollHeight + 'px';
   // }
