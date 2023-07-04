@@ -95,6 +95,7 @@ body{
   transition: 0.5s;
   box-shadow: 2px 2px 2px 0px rgba(165, 42, 42, 0.9);
   animation: btn-animation 2s infinite alternate;
+  z-index: 2;
 }
 
 ::-webkit-scrollbar{
