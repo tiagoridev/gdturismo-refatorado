@@ -1,6 +1,5 @@
 .beneficios{
-  margin-bottom: 8rem;
- 
+  margin-bottom: 8rem; 
 }
 
 .beneficios-list{ 
@@ -70,5 +69,7 @@
   .beneficio-subtitle{
     font-size: 1rem;
   }
- 
+  .beneficios{
+    margin-bottom: 4rem; 
+  } 
 }

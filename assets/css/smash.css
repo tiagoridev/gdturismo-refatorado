@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;  
-  object-fit: contain;
+  object-fit: cover;
   position: relative;
 }
 
@@ -31,4 +31,26 @@
 
 .smash button{
   margin-top: 20rem
+}
+
+@media (max-width:600px){
+  .smash{
+    width: 100%;
+    height: 12.5rem; /*200px*/
+    background-image: url('../../assets/imgs/smash/img-final-mobile.jpg'); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;  
+    object-fit: cover;
+    position: relative;
+  }
+
+  .smash button{
+    margin-top: 7rem
+  }
+
+  .smash p{
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
 }

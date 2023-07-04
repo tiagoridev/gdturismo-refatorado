@@ -126,17 +126,14 @@ body{
 
 /* responsivo */
 @media (max-width: 500px){
-  .title-main::after{    
+  .title-main::after{
     width: 4.687rem;
-    height: 0.437rem;    
+    height: 0.437rem;
   }
   .icon-quero-viajar{
   max-width: 20px;
   }  
   .section-content{
     margin-bottom: 2rem ;
-  }
- 
+  } 
 }
-
-
