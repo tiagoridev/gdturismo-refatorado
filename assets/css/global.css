@@ -65,6 +65,8 @@ body{
   border-radius: 5px;
 }
 
+
+
 .section-details{
   display: flex;
   justify-content: space-between;
@@ -126,13 +128,16 @@ body{
 
 /* responsivo */
 @media (max-width: 500px){
+  body{
+    overflow-x: hidden;
+  }
   .title-main::after{
     width: 4.687rem;
     height: 0.437rem;
   }
   .icon-quero-viajar{
   max-width: 20px;
-  }  
+  }
   .section-content{
     margin-bottom: 2rem ;
   } 
