@@ -1,9 +1,10 @@
 footer{
-  padding: 4rem 0rem;
+  padding: 4rem 0rem 0rem 0rem;
 }
 
 .footer{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .footer-title{
@@ -34,26 +35,37 @@ footer{
   border-radius: 5px;
 }
 
+.footer-sub-grupo{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 6rem; */    
+}
+
 .footer-register{
   text-align: center;
   letter-spacing: .050rem;
+  margin: 4rem 0rem;
+}
+
+.footer-copy{
+  text-align: center;
+  padding: .5rem;  
+}
+
+.footer-copy a{
+  text-decoration: underline;
 }
 
 @media (max-width:500px){
   .footer{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 4rem;
   }
 
   .footer-social-media{
     flex-direction: row;
     gap: 1rem;
-  }
-
-  .footer-sub-grupo{
-    display: flex;
-    justify-content: space-between;
-    /* gap: 6rem; */    
   }
 
   .footer-item{
