@@ -27,7 +27,7 @@ function menuMobile(event){
   // if(nav.classList.contains('active')){
   //   body.style.overflow = 'hidden'; 
   // } else {
-  //   body.style.overflow = 'visible';    
+  //   body.style.overflow = 'visible';
   // }
 }
 

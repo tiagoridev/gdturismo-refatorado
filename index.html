@@ -19,26 +19,25 @@
       </div>
       <div class="header-nav">
         <nav class="header-nav-menu">
+
           <div class="menu-controls">
             <button aria-label="Abrir menu" class="btn-menu-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
               <span id="hamburguer"></span>
-            </button>            
+            </button>
           </div>
-          
-          
-          
+         
           <div class="menu-desktop">
             <ul class="header-menu-list font-xsm weight-semibold" role="menu">
-              <li class="header-menu-item"><a class="cor-0 btn-" href="#">Nossa história</a></li>
-              <li class="header-menu-item"><a class="cor-0" href="#">Mural de Fotos</a></li>
-              <li class="header-menu-item"><a class="cor-0" href="#">Benefícios</a></li>
+              <li class="header-menu-item"><a class="cor-0 btn-" href="#nossa-historia">Nossa história</a></li>
+              <li class="header-menu-item"><a class="cor-0" href="#mural-de-fotos">Mural de Fotos</a></li>
+              <li class="header-menu-item"><a class="cor-0" href="#beneficios">Benefícios</a></li>
             </ul>
           </div>
         </nav>
-        <!-- <div class="header-icons">
+        <div class="header-icons">
           <a href="https://www.instagram.com/gdturismo/" target="_blank" ><img class="header-icon-item" src="./assets/imgs/icons/insta.svg" alt="Instagram"></a>
           <a href="https://www.facebook.com/gdturismoo" target="_blank" ><img class="header-icon-item" src="./assets/imgs/icons/face.svg" alt="Facebook"></a>
-        </div> -->
+        </div>
       </div>
     </div>
   </header>
@@ -66,10 +65,14 @@
         <span class="carousel-control-next-icon btn-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>      
+    </div>  
   <main>
+    <!--WHATSAPP-->
+    <div class="whatsapp">
+      <a href="https://wa.link/iczrhv" target="_blank"><img src="./assets/imgs/icons/wpp.svg" alt="Whatsapp"></a>
+    </div>
     <!--NOSSA HISTÓRIA-->
-    <section class="nossa-historia">
+    <section class="nossa-historia" id="nossa-historia">
       <div class="section-details container">
         <h1 class="title-main">Nossa História</h1>
         <div>
@@ -92,7 +95,7 @@
       </div>
     </section>
     <!--MURAL DE FOTOS-->
-    <section class="mural-de-fotos bg-cor-6">
+    <section class="mural-de-fotos bg-cor-6" id="mural-de-fotos">
       <div class="section-details container">
         <h1 class="title-main">Mural de fotos</h1>
         <div>
@@ -164,11 +167,14 @@
     <!--BTN-QUERO VIAJAR-->
     <div class="btn-box">
       <button class="btn-quero-viajar font-md">
-          <img class="icon-quero-viajar" src="./assets/imgs/icons/icon-bus.svg" alt="Quero viajar">QUERO VIAJAR
+        <a href="https://wa.link/iczrhv" target="_blank">          
+          <img class="icon-quero-viajar" src="./assets/imgs/icons/icon-bus.svg" alt="Quero viajar">
+          QUERO VIAJAR
+        </a>
       </button>
     </div>
     <!--BENEFICIOS-->
-    <section class="beneficios container">
+    <section class="beneficios container" id="beneficios">
       <div class="section-details">
         <h1 class="title-main">Benefícios</h1>
         <div>
@@ -272,7 +278,10 @@
          <!--BTN-QUERO VIAJAR-->
       <div class="btn-box">
         <button class="btn-quero-viajar font-md">
-            <img class="icon-quero-viajar" src="./assets/imgs/icons/icon-bus.svg" alt="Quero viajar">QUERO VIAJAR
+          <a href="https://wa.link/iczrhv" target="_blank">          
+            <img class="icon-quero-viajar" src="./assets/imgs/icons/icon-bus.svg" alt="Quero viajar">
+            QUERO VIAJAR
+          </a>
         </button>
       </div>
     </div>
@@ -280,7 +289,7 @@
       <div class="container footer">
         <div>
           <h2 class="cor-1 footer-title font-sm">Links uteis</h2>
-          <ul class="footer-list">
+          <ul class="footer-list footer-links">
             <li class="footer-item"><a href="https://cadastur.turismo.gov.br/" class="cor-1" target="_blank">Cadastur</a></li>
             <li class="footer-item"><a href="https://www.gov.br/turismo/pt-br" class="cor-1" target="_blank">Ministério do Turismo</a></li>
             <li class="footer-item"><a href="https://riotur.rio/" class="cor-1" target="_blank">Rio Tur</a></li>
@@ -290,7 +299,7 @@
         <div class="footer-sub-grupo">
           <div >
             <h2 class="cor-1 footer-title font-sm">Mapa do site</h2>
-            <ul class="footer-list">
+            <ul class="footer-list footer-links">
               <li class="footer-item"><a href="https://cadastur.turismo.gov.br/" class="cor-1" target="_blank">Nossa História</a></li>
               <li class="footer-item"><a href="https://www.gov.br/turismo/pt-br" class="cor-1" target="_blank">Mural de fotos</a></li>
               <li class="footer-item"><a href="https://riotur.rio/" class="cor-1" target="_blank">Benefícios</a></li>
@@ -303,7 +312,7 @@
               <li ><a href="https://cadastur.turismo.gov.br/" class="cor-1" target="_blank"><img class="footer-icon" src="./assets/imgs/icons/face.svg" alt="Facebook"></a></li>
             </ul>
           </div>
-        </div>        
+        </div> 
       </div>
       <p class="footer-register cor-1">
         Registro no Ministério do Turismo e Cadastur 
