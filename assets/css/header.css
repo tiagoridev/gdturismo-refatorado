@@ -153,14 +153,14 @@
     background-color: var(--cor-1); 
     height: 0px;   
     text-align: center;
-    transition: .6s;  
+    transition: .3s;  
     visibility: hidden; 
     overflow-y: hidden; 
   }
   .header-nav-menu.active .header-menu-list{
     /* display: block;   */
     /* height: calc(100vh - 130px);   */
-    height: 100vh;
+    height: 400rem;
     visibility: visible;
     /* overflow-y: auto; */
   }

@@ -1,3 +1,7 @@
+.nossa-historia{
+  padding: 4rem 0;
+}
+
 .section-details{
   margin-bottom: 3rem;
 }
@@ -71,6 +75,10 @@
 }
 
 @media (max-width: 850px){
+  .nossa-historia{
+    padding: 2rem 0;
+  }
+
   .nossa-historia-content{    
     grid-template-columns: 1fr;
     margin-bottom: 2rem; 

@@ -1,5 +1,6 @@
 .beneficios{
   margin-bottom: 8rem; 
+  padding-top: 4rem;
 }
 
 .beneficios-list{ 
@@ -41,6 +42,10 @@
 }
 
 @media (max-width: 768px) {
+  .beneficios{    
+    padding-top: 2rem;
+  }
+  
   .beneficio-img{
     background-color: var(--cor-0);
     width: 16rem;
