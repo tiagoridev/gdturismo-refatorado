@@ -156,6 +156,10 @@ body{
 
 /* responsivo */
 @media (max-width: 1000px) {
+  .btn-top{    
+    margin: 0 1rem;    
+  }
+
   .whatsapp{
     position: fixed;
     bottom: 25%;
