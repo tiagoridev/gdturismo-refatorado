@@ -53,16 +53,16 @@ body{
   bottom: 20%;
   right: 0px;
   width: 5rem;
-  z-index: 3;
+  z-index: 10;
   margin: 0 2rem;
 }
 
 .btn-top{
   position: fixed; 
   bottom: 5%;
-  right: 0px;
+  right: 15px;
   width: 3rem;
-  z-index: 3;
+  z-index: 11;
   margin: 0 .5rem;
   cursor: pointer;
 }
@@ -114,6 +114,7 @@ body{
   display: flex;
   justify-content: center; 
   margin-bottom: 4rem; 
+  
 }
 
 .btn-quero-viajar{   
@@ -131,7 +132,7 @@ body{
   transition: 0.5s;
   box-shadow: 2px 2px 2px 0px rgba(165, 42, 42, 0.9);
   animation: btn-animation 2s infinite alternate;
-  z-index: 2;
+  z-index: 12;
 }
 
 .btn-quero-viajar a{
@@ -157,15 +158,14 @@ body{
 /* responsivo */
 @media (max-width: 1000px) {
   .btn-top{    
-    margin: 0 1rem;    
+    margin: 0rem;    
   }
 
   .whatsapp{
     position: fixed;
     bottom: 25%;
     right: 5px;
-    width: 3rem;
-    z-index: 3;
+    width: 3rem;   
     margin: 0 .5rem;
   }
 }
