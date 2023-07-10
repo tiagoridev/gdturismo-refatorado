@@ -50,7 +50,7 @@ body{
 .whatsapp{
   position: fixed;
   /* top: 60%; */
-  bottom: 50%;
+  bottom: 20%;
   right: 0px;
   width: 5rem;
   z-index: 3;
@@ -70,6 +70,7 @@ body{
 .btn-top-box{  
   visibility: hidden;
   padding-right: 1rem;
+  margin: 5px;
 }
 
 .btn-top-box .visible{
@@ -81,14 +82,13 @@ body{
 .container{
   max-width: 75rem; /*1200px*/
   margin: 0 auto; 
- 
 }
 
 .title-main{
   font-size: var(--font-xxl);
   color: var(--cor-0);
   position: relative; 
-  line-height: 2.5rem; 
+  line-height: 2.5rem;
 }
 
 .title-main::after{
@@ -156,9 +156,9 @@ body{
 
 /* responsivo */
 @media (max-width: 1000px) {
-  .whatsapp{    
+  .whatsapp{
     position: fixed;
-    bottom: 50%;
+    bottom: 25%;
     right: 5px;
     width: 3rem;
     z-index: 3;
@@ -170,15 +170,17 @@ body{
   body{
     overflow-x: hidden;
     margin-top: 0rem;
-  }  
+  }
 
   .title-main::after{
     width: 4.687rem;
     height: 0.437rem;
   }
+
   .icon-quero-viajar{
   max-width: 20px;
   }
+
   .section-content{
     margin-bottom: 2rem ;
   } 
