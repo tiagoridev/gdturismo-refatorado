@@ -14,12 +14,16 @@
   }
 }
 
-@media (max-width: 500px){
-  .introduction{
-    margin-bottom: 2rem;
-  }
+@media (max-width: 600px){
   .btn-icon{
     background-color: var(--cor-0);
     height: 50px;    
   }
+}
+
+@media (max-width: 500px){
+  .introduction{
+    margin-bottom: 2rem;
+  }
+ 
 }

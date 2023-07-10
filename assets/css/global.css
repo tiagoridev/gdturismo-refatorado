@@ -41,23 +41,52 @@ a{
 
 body{
   font-family: var(--font-main);
-  
-  /* margin-top: 9.69rem; 155px  */
+  /* margin-top: 9.69rem;  */
+  /* 155px */
 }
+
 
 .whatsapp{
   position: fixed;
   /* top: 60%; */
-  bottom: 10%;
+  bottom: 50%;
   right: 0px;
   width: 5rem;
   z-index: 3;
   margin: 0 2rem;
 }
 
+.btn-top{
+  position: fixed; 
+  bottom: 5%;
+  right: 0px;
+  width: 3rem;
+  z-index: 3;
+  margin: 0 .5rem;
+  cursor: pointer;
+}
+
+.btn-top-box{  
+  visibility: hidden;  
+}
+
+.btn-top-box .visible{
+  opacity: 1;
+  transition: all .4s ease;
+  visibility: visible;  
+}
+
+@keyframes btnTop{
+  from{
+
+  }
+}
+
+
 .container{
   max-width: 75rem; /*1200px*/
-  margin: 0 auto;  
+  margin: 0 auto; 
+ 
 }
 
 .title-main{
@@ -140,20 +169,22 @@ body{
 }
 
 /* responsivo */
+@media (max-width: 1000px) {
+  .whatsapp{    
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+    width: 3rem;
+    z-index: 3;
+    margin: 0 .5rem;
+  }
+}
+
 @media (max-width: 500px){
   body{
     overflow-x: hidden;
     margin-top: 0rem;
-  }
-  .whatsapp{    
-  position: fixed;
-  bottom: 5%;
-  right: 0px;
-  width: 3rem;
-  z-index: 3;
-  margin: 0 .5rem;
-}
-  
+  }  
 
   .title-main::after{
     width: 4.687rem;

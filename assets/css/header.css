@@ -128,10 +128,8 @@
 
 @media (max-width: 600px){
   header{
-    position: relative;
-    
-    width: 100%;
-   
+    position: relative;    
+    width: 100%;   
     background-color: var(--cor-1);
   }
   .header-logo{
