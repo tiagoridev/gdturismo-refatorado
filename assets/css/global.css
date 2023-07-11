@@ -71,10 +71,11 @@ body{
   visibility: hidden;
   padding-right: 1rem;
   margin: 5px;
+
 }
 
 .btn-top-box .visible{
-  opacity: 1;
+  opacity: 1;  
   transition: all .4s ease;
   visibility: visible;  
 }

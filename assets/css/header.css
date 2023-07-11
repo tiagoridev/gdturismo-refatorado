@@ -157,20 +157,16 @@
     visibility: hidden; 
     overflow-y: hidden; 
   }
-  .header-nav-menu.active .header-menu-list{
-    /* display: block;   */
-    /* height: calc(100vh - 130px);   */
+  .header-nav-menu.active .header-menu-list{   
     height: 400rem;
-    visibility: visible;
-    /* overflow-y: auto; */
+    visibility: visible; 
   }
 
   .header-nav-menu.active .header-icons{
     visibility: visible;
   }
 
-  .header-menu-item{
-    /* display: block; */
+  .header-menu-item{    
     padding: 2rem;
     border-bottom: 2px solid var(--cor-6)
   }
