@@ -23,18 +23,24 @@
 
 [data-animation]{
   opacity: 0;
-  transition: .3s;
+  transition: .2s;
+}
+
+[data-animation="top"]{  
+  transform: translate3d(0, -50px, 0);
 }
 
 [data-animation="left"]{
   transform: translate3d(-50px, 0, 0);
 }
 
+
 [data-animation="right"]{
   transform: translate3d(50px, 0, 0);
-}
+} 
 
-[data-animation].animate{
+
+[data-animation].animate{  
   opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
-}
+  transform: translate3d(0px, 0px, 0px); 
+} 
