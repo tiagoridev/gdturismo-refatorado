@@ -1,13 +1,3 @@
-/* header{
-  position: fixed;
-  z-index: 99999999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  background-color: var(--cor-1);
-} */
-
 .bg-details{
   max-width: 100%;
   height: 18px;
